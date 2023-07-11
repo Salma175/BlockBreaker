@@ -6,7 +6,9 @@ namespace BlockBreaker
     public enum BBEventType
     {
         Play,
-        Quit
+        Quit,
+        Lives,
+        Score
     }
     public class EventManager
     {

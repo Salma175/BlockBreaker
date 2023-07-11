@@ -992,6 +992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18618a1b3bfa8246a4f15827a450f97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data: {fileID: 11400000, guid: 9c9ed7a3787d0154286e17c4d44d1343, type: 2}
 --- !u!4 &1702131239
 Transform:
   m_ObjectHideFlags: 0
@@ -1167,7 +1168,7 @@ GameObject:
   - component: {fileID: 1983825869}
   - component: {fileID: 1983825868}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: HUDCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

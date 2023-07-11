@@ -1,5 +1,7 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 namespace BlockBreaker
 {
     public class GameManager : MonoBehaviour
@@ -22,7 +24,7 @@ namespace BlockBreaker
         private void Play()
         {
             //Load Level
-            Debug.Log("Play");
+            SceneManager.LoadScene(1, LoadSceneMode.Single);
         }
 
         private void OnDestroy()

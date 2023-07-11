@@ -4,15 +4,12 @@ namespace BlockBreaker
 {
     public class GameInitializer : MonoBehaviour
     {
-        private static GameInitializer _instance;
+        [SerializeField]
+        private BlockBreakerData _data;
 
         void Awake()
         {
-            if (_instance == null)
-            {
-                _instance = this;
-                DontDestroyOnLoad(this.gameObject);
-            }
+            DontDestroyOnLoad(this.gameObject);
             Initialize();
         }
 
